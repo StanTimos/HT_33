@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Photos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1 class="head">History Photos</h1>
+
+    <div class="photos">
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo1.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo1.jpg') }}" alt="Photo 1">
+            </a>
+            <p>Madrid. Plaza Mayor – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo2.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo2.jpg') }}" alt="Photo 2">
+            </a>
+            <p>Madrid. San Francisco el Grande – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo3.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo3.jpg') }}" alt="Photo 3">
+            </a>
+            <p>Madrid. Palacio Real desde el Paseo de San Vincente – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo4.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo4.jpg') }}" alt="Photo 4">
+            </a>
+            <p>Madrid. Plaza de Armas – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo5.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo5.jpg') }}" alt="Photo 5">
+            </a>
+            <p>Madrid. Museo Nacional de Pintura y Escultura – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo6.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo6.jpg') }}" alt="Photo 6">
+            </a>
+            <p>Madrid. Ministerio de la Guerrra – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo7.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo7.jpg') }}" alt="Photo 7">
+            </a>
+            <p>Madrid. Monumento de Felipe III – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo8.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo8.jpg') }}" alt="Photo 8">
+            </a>
+            <p>Madrid. Torre de los Lujánes – 1890s</p>
+        </div>
+        <div class="photo">
+            <a href="{{ url_for('static', filename='img/photo9.jpg') }}" target="_blank">
+                <img src="{{ url_for('static', filename='img/photo9.jpg') }}" alt="Photo 9">
+            </a>
+            <p>Madrid. Ministerio de la de Fomento – 1890s</p>
+        </div>
+    </div>
+
+    <div>
+        <ul class="links">
+            <li><a href="/">Main page</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/mayor">Mayor</a></li>
+            <li><a href="/facts">Facts</a></li>
+            <li><a href="/history">History</a></li>
+            <li><a href="/contacts">Contacts</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

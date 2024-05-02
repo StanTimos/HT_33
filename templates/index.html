@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="main">
+        <div class="pict">
+            <img src="{{ url_for('static', filename='img/banner-madrid.jpg') }}" class="photo" alt="mad_pic">
+        </div>
+        <h1 class="head">Welcome to the Madrid City Portal</h1>
+    </div>
+    <header>
+        <div class="menu">
+            <button onclick="location.href='/news'">News</button>
+            <button onclick="location.href='/mayor'">Mayor</button>
+            <button onclick="location.href='/facts'">Facts</button>
+            <button onclick="location.href='/history'">History</button>
+            <button onclick="location.href='/contacts'">Contacts</button>
+        </div>
+    </header>
+    <hr>
+    <div class="descr">
+        <p class="main_description">
+            On our portal, you can find out the latest news from the city of <b>Madrid</b>,
+            learn its history, and also receive other useful information.
+        </p>
+    </div>
+    <div class="bottom-index">
+        <div class="pict2">
+            <img src="{{ url_for('static', filename='img/gerb.jpg') }}" class="photo" alt="mad_pic_2">
+        </div>
+    </div>
+</body>
+</html>
+

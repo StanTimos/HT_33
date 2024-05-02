@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1 class="head">News</h1>
+
+    <div class="news">
+        <div class="news-item">
+            <div class="news-image">
+                <img src="{{ url_for('static', filename='img/2.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="news-text">
+                <h2 class="news-title">Madrid Open Set For 2 Weeks Of World Class Tennis</h2>
+                <p class="news-content">The courts are set and the world’s best tennis players are in town to battle it out on the clay courts of Madrid´s Caja Mágica for the 22nd Mutua Madrid Open.<br>
+                                        The tournament, which has now become a two-week affair, is part of the ATP Masters men’s circuit and the WTA Premier Mandatory women’s competition. It’s the only Open in Europe with this duration and in which the men’s and women’s competitions are held simultaneously.<br>
+                                        The qualifying rounds will take place Monday April 22 and Tuesday April 23 with main draw action taking place from Tuesday April 23 for WTA matches, and Wednesday April 24 for the ATP.<br>
+                                        Spaniard,Carlos Alcaraz, is the home favourite for the mens having won the title in 2022 and 2023.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="news-item">
+            <div class="news-image">
+                <img src="{{ url_for('static', filename='img/1.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="news-text">
+                <h2 class="news-title">Political Turmoil As Pedro Sánchez Threatens To Resign</h2>
+                <p class="news-content">The Spanish Prime Minister, Pedro Sánchez, has announced that he has suspended public duties and is contemplating resigning from government.<br>
+                                        The shock announcement came after Spanish media reported that a Madrid judge had launched a preliminary investigation into whether the prime minister’s wife, Begoña Gómez, had used her government connections to further her private business interests.<br>
+                                        “I need time to reflect,” Sánchez wrote in a four-page letter posted on his X account. “I urgently need to answer a question that I keep asking myself: Is it worth it for me to remain [in office] in spite of the right and far-right’s mudslinging?”<br>
+                                        “Should I continue to lead this government or renounce this highest of honors?” Sánchez wrote. “Despite the right-wing’s caricature of my person, I am not attached to this post … My commitment is to my sense of duty and public service.”<br>
+                                        The corruption investigation was initiated following the filing of a lawsuit by Manos Limpias, or “Clean Hands,” a platform with links to ultranationalist groups notorious for filing legal complaints linked to far-right causes
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="news-item">
+            <div class="news-image">
+                <img src="{{ url_for('static', filename='img/3.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="news-text">
+                <h2 class="news-title">Sanchez Of Arabia Commits Spain To Palestinian Recognition</h2>
+                <p class="news-content">Spain is set to recognise Palestinian statehood by July in a move that it hopes will open the way for other EU countries to follow suit..<br>
+                                        In an earlier communique signed with the Prime Ministers of Malta, Ireland and Slovenia, the countries committed themselves to “our readiness to recognise Palestine and to do so when the circumstances are right.”<br>
+                                        However, Spanish Prime Minister Pedro Sánchez, who is on a trip this week to Jordan, Qatar and Saudi Arabia, made it clear that time is now approaching and “that we have to think seriously about doing it in the first half of this year.”<br>
+                                        According to Spanish media the remarks were made by Sanchez to the traveling press corps in the Jordanian capital, Amman, on the first day of his visit to the region.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="news-item">
+            <div class="news-image">
+                <img src="{{ url_for('static', filename='img/4.jpeg') }}" class="photo" alt="pic">
+            </div>
+            <div class="news-text">
+                <h2 class="news-title">Spanish Economy Beats Expectations – Just</h2>
+                <p class="news-content">Spain’s gross domestic product (GDP) grew by 2.5% in 2023 according the latest figures from the INE state statistics agency, showing the size of the Spanish economy at 1.462 billion Euros.<br>
+                                        The figure is slightly above expectations from the government´s own forecasts as well as those from the Bank of Spain, the OECD and the European Commission.<br>
+                                        The figures represent the third year of consecutive growth since the pandemic, albeit down from the post Covid bounce of 6.4% in 2021 and 5.8% in 2022.<br>
+                                        According to the figures, Spain’s economy grew much faster than its European neighbours. It grew five times faster than the eurozone and the European Union (0.5%, according to Eurostat data) and far outpaced major powers such as France (0.9%), Italy (0.7%) and Germany (-0.3%), which were more affected by the energy crisis.<br>
+                                        Domestic demand proved to be the main motor of Spanish growth making up nearly two thirds of the total while Spain´s main industry of tourism brought in 85 million visitors and the bulk of the remainder.
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+<!--Завдання 4-->
+<!--Додайте до проєкту з першого завдання механізм посилань,-->
+<!--який дозволить переходити з розділу до розділу.-->
+    <div class="bottom">
+        <ul class="links">
+            <li><a href="/">Main page</a></li>
+            <li><a href="/mayor">Mayor</a></li>
+            <li><a href="/facts">Facts</a></li>
+            <li><a href="/history">History</a></li>
+            <li><a href="/contacts">Contacts</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

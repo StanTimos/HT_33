@@ -1,0 +1,124 @@
+.main, .contacts, .short {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pict {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pict2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.pict img {
+    max-width: 100%;
+    height: auto;
+}
+
+.head, .descr {
+    text-align: center;
+    color: #ff4d00;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu button {
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+}
+
+.menu button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.main_description {
+    color: #333;
+    font-size: 20px;
+}
+
+.news-item, .mayor, .people-item {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.news-image, .mayor-image, .people-image {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.news-image img, .people-image img {
+    width: 200px;
+}
+
+.news-text, .mayor-text, .people-text {
+    flex: 4;
+}
+
+.links {
+    color: #FF9700;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.links a {
+    color: #ff4d00;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links li {
+    margin-right: 60px;
+}
+
+.bottom-index {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.info {
+    color: red;
+}
+
+.cont a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photos .photo {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.photos .photo img {
+    width: 100%;
+    height: auto;
+        }

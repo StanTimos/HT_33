@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous People</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1 class="head">Famous people of Madrid</h1>
+
+    <div class="people">
+        <div class="people-item">
+            <div class="people-image">
+                <img src="{{ url_for('static', filename='img/soria.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="people-text">
+                <h2 class="people-name">Arturo Soria y Mata</h2>
+                <p class="people-info">
+                    Arturo Soria y Mata (1844-1920) was an internationally important Spanish urban planner whose work remains highly inspirational today.<br>
+                    He is most well known for his concept of the Linear City (exemplified in Madrid's Ciudad Lineal). He studied the civil engineer career (Ingeniero de Caminos), but he didn't finish it.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="people-item">
+            <div class="people-image">
+                <img src="{{ url_for('static', filename='img/domingo.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="people-text">
+                <h2 class="people-name">Placido Domingo</h2>
+                <p class="people-info">
+                    Jose Placido Domingo Embil (born 21 January 1941) is a Spanish opera singer,<br>
+                    conductor, and arts administrator. He has recorded over a hundred complete operas and is well known for his<br>
+                    versatility, regularly performing in Italian, French, German, Spanish, English and Russian in the most prestigious opera houses in the world.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="people-item">
+            <div class="people-image">
+                <img src="{{ url_for('static', filename='img/felipe.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="people-text">
+                <h2 class="people-name">Philip III of Spain</h2>
+                <p class="people-info">
+                    Philip III (Spanish: Felipe III; 14 April 1578 – 31 March 1621) was King of Spain.<br>
+                    As Philip II, he was also King of Portugal, Naples, Sicily and Sardinia and Duke of Milan from 1598 until his death in 1621.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="people-item">
+            <div class="people-image">
+                <img src="{{ url_for('static', filename='img/raul.jpg') }}" class="photo" alt="pic">
+            </div>
+            <div class="people-text">
+                <h2 class="people-name">Raul</h2>
+                <p class="people-info">
+                    Raúl González Blanco (born 27 June 1977), known as Raúl, is a Spanish football manager and former player who played as a forward.<br>
+                    He is the current manager of Real Madrid Castilla, the reserve team of La Liga club Real Madrid.<br>
+                    Raúl is regarded as one of the greatest players of all time.
+                </p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div>
+        <ul class="links">
+            <li><a href="/">Main page</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/mayor">Mayor</a></li>
+            <li><a href="/facts">Facts</a></li>
+            <li><a href="/history">History</a></li>
+            <li><a href="/contacts">Contacts</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
